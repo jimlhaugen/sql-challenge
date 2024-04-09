@@ -1,0 +1,41 @@
+# Physical
+
+departments
+-
+dept_no INT PK
+dept_name VARCHAR(255)
+
+dept_emp
+-
+emp_no VARCHAR(255) PK
+dept_no VARCHAR(255)
+
+dept_manager
+-
+dept_no VARCHAR(255)  
+emp_no VARCHAR(255) PK
+
+
+employees
+-
+emp_no VARCHAR(255) PK
+emp_title_id ARCHAR(255) 
+birth_date 
+first_name 
+last_name 
+sex 
+hire_date 
+
+salaries
+-
+emp_no VARCHAR(255) PK
+salary VARCHAR(255)
+
+titles
+-
+title_id INT PK
+title
+
+
+zip_code INT FK - Zipcode.zip_code
+zip_code INT FK - Zipcode.zip_codeestate_type VARCHAR(255) FK - Estate_Type.estate_type_id
